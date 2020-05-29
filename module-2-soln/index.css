@@ -1,0 +1,90 @@
+body{
+	margin:0px;
+	font-family: Comic Sans MS, sans-serif;
+}
+h1{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.sec{
+	background: #a8a091;
+	
+	border: 1px solid black;
+	float: left;
+	 
+	
+	margin-bottom:3.33%;
+
+
+
+}
+.title{
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	background: yellow;
+	width:30%;
+	padding: 1%;
+	float: right;
+	text-align: center;
+	font-weight: bold;
+
+}
+.matter{
+	clear:right;
+	padding: 2%;
+}
+#pink{
+	background: #f059d4;
+}
+#red{
+	background: #f72040;
+	color: white;
+}
+#yellow{
+	background: #f0ed46;
+}
+
+@media	(min-width: 992px)
+{
+	.sec{
+		box-sizing: border-box;
+		width: 30%;
+		margin-left:2.5%;
+
+	}
+
+
+}
+@media	(min-width: 768px) and (max-width: 991px)
+{
+	
+	.a{
+		box-sizing: border-box;
+		width: 45%;
+		margin-left:3.33%;
+	}
+	.b{
+		box-sizing: border-box;
+		width: 93.3%;
+		margin-left:3.33%;
+
+	}
+
+}
+@media	(max-width: 768px)
+{
+	.sec{
+		box-sizing: border-box;
+
+		width: 80%;
+		margin-left:10%;
+		
+	}
+
+
+		
+	}
+
+}
